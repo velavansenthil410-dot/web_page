@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(5, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  text-align: center;
+}
+nav {
+  background-color: rgba(9, 231, 220, 0.014);
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: rgb(38, 148, 192);
+}
+.content {
+  padding: 20px;
+}
+footer {
+  background-color: rgb(51, 51, 51);
+  color: rgb(26, 105, 6);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
